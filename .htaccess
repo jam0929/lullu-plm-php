@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+php_flag apc.cache_by_default On
+
+RewriteEngine On
+
+RewriteCond $1 !^(index\.php|assets|favicon\.ico|channel\.php|robots\.txt|sitemaps|pma)
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1 [L]

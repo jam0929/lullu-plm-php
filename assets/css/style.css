@@ -1,0 +1,30 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+
+html,body {
+	font-family: 'Ubuntu',/*'Nanum Gothic',*/"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+	padding-top: 66px;
+}
+.pinterest-grid {
+	position: relative;
+}
+.pinterest-grid > div {
+	position: absolute;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
